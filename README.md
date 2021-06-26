@@ -2,7 +2,7 @@
 
 ## ERC-20
 
-![alt Erc20](https://github.com/kangkkang/ErcTutorial/erc20-1.jpg)
+![alt Erc20](https://github.com/kangkkang/ErcTutorial/blob/main/erc20-1.jpeg)
 
 Ethereum Request for Comments 20. 
 
