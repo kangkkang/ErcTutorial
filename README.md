@@ -14,3 +14,13 @@ Standard for Fungible token.
 
 규약 라이브러리
 https://github.com/OpenZeppelin/openzeppelin-contracts
+
+
+## 개발프로세스
+
+반복(로컬 개발 -> 이더리움EVM 로컬 환경 구축 -> 로컬 배포 -> 테스트) -> 완료
+
+-> 이더리움 테스트넷 (Ropsten, Kovan, Rinkeby) 배포 -> 테스트 -> 완료
+
+-> 이더리움 메인넷 배포
+
