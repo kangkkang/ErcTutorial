@@ -28,10 +28,13 @@ https://github.com/OpenZeppelin/openzeppelin-contracts
 
 ## 가스(Gas)
 
-총 비용 = gasLimit * gasPrice
+단위 : gwei (1 / 100,000,000 eth)
+
+총 비용 = gasLimit * gasPrice (gwei)
 
 gasLimit : 해당 트랙잭션 수행에 소비되는 총 가스 추정치 (예> 전송, 소유권 이전 수행 등등)
 
-gasPrice : 1가스당 지불할 가격
+gasPrice : 1가스당 지불할 가격 (클수록 전송 속도가 빨라짐)
 
 * 만약 트랙잭션 실행 중 가스를 다 쓰면 롤백되지만 이미 쓴 가스는 돌려받지 못 함.
+* 개발 중 트랜잭션을 수행하기 전 가스비 측정 메소드도 제공해주니 테스트해보자.
