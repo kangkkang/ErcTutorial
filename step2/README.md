@@ -4,7 +4,7 @@
 
 #### Erc20 배포 환경 세팅
 ```
-$ truffle init
+$ node_modules/.bin/truffle init
 ```
 
 ## [배포] ERC dev
