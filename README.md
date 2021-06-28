@@ -24,3 +24,14 @@ https://github.com/OpenZeppelin/openzeppelin-contracts
 
 -> 이더리움 메인넷 배포
 
+![alt Erc20-dev](https://github.com/kangkkang/ErcTutorial/blob/main/erc20-2.jpeg)
+
+## 가스(Gas)
+
+총 비용 = gasLimit * gasPrice
+
+gasLimit : 해당 트랙잭션 수행에 소비되는 총 가스 추정치 (예> 전송, 소유권 이전 수행 등등)
+
+gasPrice : 1가스당 지불할 가격
+
+* 만약 트랙잭션 실행 중 가스를 다 쓰면 롤백되지만 이미 쓴 가스는 돌려받지 못 함.
