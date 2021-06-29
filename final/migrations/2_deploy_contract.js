@@ -1,7 +1,7 @@
 const MyToken = artifacts.require("MyToken");
 
 const fs = require('fs')
-const abiPath = './src/blockchain/deploy/'
+const abiPath = './deploy/'
 
 module.exports = async function (deployer) {
   deployer.deploy(MyToken).then(() => {
